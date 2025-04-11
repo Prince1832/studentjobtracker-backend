@@ -2,7 +2,6 @@ const express = require('express');
 const router = express.Router();
 const Job = require('../models/job')
 
-console.log(require.resolve('../models/Job'));
 
 // Add Job
 router.post('/', async (req, res) => {
